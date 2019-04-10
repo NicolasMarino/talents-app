@@ -25,8 +25,13 @@ class App extends Component {
     const { users } = this.state;
     return (//jsx code and can return only a single parent tag
       <div className="App">
+        <div className="App-header">
+            <p>Trying things</p>
+        </div>
+      
         {users.map(this.showUsers)}
-      </div>
+        
+      </div>      
     );
   }
 }
